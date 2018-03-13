@@ -9,5 +9,5 @@
 6. 在模板文件中的适当位置增加两行注释//white_list_start和//white_list_end（包含前面的//），白名单的规则将写入到模板的这两行注释中间。
 7. 保存chinalist2surge.py。
 8. 运行chinalist2surge.py。
-9. 在surge_conf_path路径中生成带白名单的Surge配置文件Surge_GFW.conf。
+9. 在surge_conf_path路径中生成带白名单的Surge配置文件ChinaList.conf。
 10. 建议增加计划任务每月执行一次。
