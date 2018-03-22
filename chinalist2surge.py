@@ -71,7 +71,7 @@ if __name__ == "__main__":
 
             white_list_text = ""
             for curr_url in white_list:
-                white_list_text += f"DOMAIN-SUFFIX,{curr_url},{surge_policy}{os.linesep}"
+                white_list_text += f"DOMAIN-SUFFIX,{curr_url},{surge_policy} // ChinaList{os.linesep}"
 
             # 增加flag
             white_list_text = "".join(
